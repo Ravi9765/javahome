@@ -6,10 +6,5 @@ pipeline {
                 git 'https://github.com/javahometech/myweb'
             }
         }
-stage(build){
-steps{
- sh "mvn clean package "
-}
-}
     }
 }
